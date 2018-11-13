@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		71751A838ED56706D140D092 /* Pods_UnsplashShudder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AF86A74A7D8A25AF7F0CFDD /* Pods_UnsplashShudder.framework */; };
+		F60322CF219A394700242AB4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60322CE219A394700242AB4 /* AppDelegate.swift */; };
+		F60322D4219A394700242AB4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F60322D2219A394700242AB4 /* Main.storyboard */; };
+		F60322D6219A394800242AB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F60322D5219A394800242AB4 /* Assets.xcassets */; };
+		F60322D9219A394800242AB4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F60322D7219A394800242AB4 /* LaunchScreen.storyboard */; };
+		F64F0122219A53AB000F8D38 /* FeaturedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F64F0121219A53AB000F8D38 /* FeaturedViewController.swift */; };
+		F64F0127219A5402000F8D38 /* ShudderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F64F0123219A5401000F8D38 /* ShudderTableViewCell.swift */; };
+		F64F0128219A5402000F8D38 /* ShudderHeroTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F64F0124219A5401000F8D38 /* ShudderHeroTableViewCell.swift */; };
+		F64F0129219A5402000F8D38 /* HeroCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F64F0125219A5401000F8D38 /* HeroCollectionViewCell.swift */; };
+		F64F012A219A5402000F8D38 /* FeaturedCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F64F0126219A5402000F8D38 /* FeaturedCollectionViewCell.swift */; };
+		F64F0134219A59E7000F8D38 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F64F0133219A59E7000F8D38 /* Photo.swift */; };
+		F64F0136219A59EE000F8D38 /* Collection.swift in Sources */ = {isa = PBXBuildFile; fileRef = F64F0135219A59EE000F8D38 /* Collection.swift */; };
+		F64F0138219A5A06000F8D38 /* PhotoService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F64F0137219A5A06000F8D38 /* PhotoService.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1AF86A74A7D8A25AF7F0CFDD /* Pods_UnsplashShudder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UnsplashShudder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		67BFFA3F14E5D66E72BDD6DA /* Pods-UnsplashShudder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnsplashShudder.release.xcconfig"; path = "Pods/Target Support Files/Pods-UnsplashShudder/Pods-UnsplashShudder.release.xcconfig"; sourceTree = "<group>"; };
+		C0224829A08FCA45878814BF /* Pods-UnsplashShudder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnsplashShudder.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UnsplashShudder/Pods-UnsplashShudder.debug.xcconfig"; sourceTree = "<group>"; };
+		F60322CB219A394700242AB4 /* UnsplashShudder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UnsplashShudder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F60322CE219A394700242AB4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F60322D3219A394700242AB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F60322D5219A394800242AB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F60322D8219A394800242AB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F60322DA219A394800242AB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F64F0121219A53AB000F8D38 /* FeaturedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FeaturedViewController.swift; path = ../../flickrShudder/FlickrShudder/FeaturedViewController.swift; sourceTree = "<group>"; };
+		F64F0123219A5401000F8D38 /* ShudderTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ShudderTableViewCell.swift; path = ../../flickrShudder/FlickrShudder/ShudderTableViewCell.swift; sourceTree = "<group>"; };
+		F64F0124219A5401000F8D38 /* ShudderHeroTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ShudderHeroTableViewCell.swift; path = ../../flickrShudder/FlickrShudder/ShudderHeroTableViewCell.swift; sourceTree = "<group>"; };
+		F64F0125219A5401000F8D38 /* HeroCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HeroCollectionViewCell.swift; path = ../../flickrShudder/FlickrShudder/HeroCollectionViewCell.swift; sourceTree = "<group>"; };
+		F64F0126219A5402000F8D38 /* FeaturedCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FeaturedCollectionViewCell.swift; path = ../../flickrShudder/FlickrShudder/FeaturedCollectionViewCell.swift; sourceTree = "<group>"; };
+		F64F0133219A59E7000F8D38 /* Photo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		F64F0135219A59EE000F8D38 /* Collection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Collection.swift; sourceTree = "<group>"; };
+		F64F0137219A5A06000F8D38 /* PhotoService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoService.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F60322C8219A394700242AB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71751A838ED56706D140D092 /* Pods_UnsplashShudder.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		80D83A7CBFACA2D1C8ECAB97 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C0224829A08FCA45878814BF /* Pods-UnsplashShudder.debug.xcconfig */,
+				67BFFA3F14E5D66E72BDD6DA /* Pods-UnsplashShudder.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F60322C2219A394700242AB4 = {
+			isa = PBXGroup;
+			children = (
+				F60322CD219A394700242AB4 /* UnsplashShudder */,
+				F60322CC219A394700242AB4 /* Products */,
+				80D83A7CBFACA2D1C8ECAB97 /* Pods */,
+				F7A045CE7019C7EA9D225C45 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F60322CC219A394700242AB4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F60322CB219A394700242AB4 /* UnsplashShudder.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F60322CD219A394700242AB4 /* UnsplashShudder */ = {
+			isa = PBXGroup;
+			children = (
+				F64F0137219A5A06000F8D38 /* PhotoService.swift */,
+				F64F0135219A59EE000F8D38 /* Collection.swift */,
+				F64F0133219A59E7000F8D38 /* Photo.swift */,
+				F60322CE219A394700242AB4 /* AppDelegate.swift */,
+				F64F0121219A53AB000F8D38 /* FeaturedViewController.swift */,
+				F64F0124219A5401000F8D38 /* ShudderHeroTableViewCell.swift */,
+				F64F0123219A5401000F8D38 /* ShudderTableViewCell.swift */,
+				F64F0125219A5401000F8D38 /* HeroCollectionViewCell.swift */,
+				F64F0126219A5402000F8D38 /* FeaturedCollectionViewCell.swift */,
+				F60322D2219A394700242AB4 /* Main.storyboard */,
+				F60322D5219A394800242AB4 /* Assets.xcassets */,
+				F60322D7219A394800242AB4 /* LaunchScreen.storyboard */,
+				F60322DA219A394800242AB4 /* Info.plist */,
+			);
+			path = UnsplashShudder;
+			sourceTree = "<group>";
+		};
+		F7A045CE7019C7EA9D225C45 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1AF86A74A7D8A25AF7F0CFDD /* Pods_UnsplashShudder.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F60322CA219A394700242AB4 /* UnsplashShudder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F60322DD219A394800242AB4 /* Build configuration list for PBXNativeTarget "UnsplashShudder" */;
+			buildPhases = (
+				A058D6EAAC1F7FD11383EF69 /* [CP] Check Pods Manifest.lock */,
+				F60322C7219A394700242AB4 /* Sources */,
+				F60322C8219A394700242AB4 /* Frameworks */,
+				F60322C9219A394700242AB4 /* Resources */,
+				521EBEFEF5178EFF5CE7FE88 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UnsplashShudder;
+			productName = UnsplashShudder;
+			productReference = F60322CB219A394700242AB4 /* UnsplashShudder.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F60322C3219A394700242AB4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Chris Mauldin";
+				TargetAttributes = {
+					F60322CA219A394700242AB4 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = F60322C6219A394700242AB4 /* Build configuration list for PBXProject "UnsplashShudder" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F60322C2219A394700242AB4;
+			productRefGroup = F60322CC219A394700242AB4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F60322CA219A394700242AB4 /* UnsplashShudder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F60322C9219A394700242AB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F60322D9219A394800242AB4 /* LaunchScreen.storyboard in Resources */,
+				F60322D6219A394800242AB4 /* Assets.xcassets in Resources */,
+				F60322D4219A394700242AB4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		521EBEFEF5178EFF5CE7FE88 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-UnsplashShudder/Pods-UnsplashShudder-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UnsplashShudder/Pods-UnsplashShudder-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A058D6EAAC1F7FD11383EF69 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UnsplashShudder-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F60322C7219A394700242AB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F64F0138219A5A06000F8D38 /* PhotoService.swift in Sources */,
+				F64F0136219A59EE000F8D38 /* Collection.swift in Sources */,
+				F64F0134219A59E7000F8D38 /* Photo.swift in Sources */,
+				F64F0128219A5402000F8D38 /* ShudderHeroTableViewCell.swift in Sources */,
+				F64F0122219A53AB000F8D38 /* FeaturedViewController.swift in Sources */,
+				F60322CF219A394700242AB4 /* AppDelegate.swift in Sources */,
+				F64F0129219A5402000F8D38 /* HeroCollectionViewCell.swift in Sources */,
+				F64F0127219A5402000F8D38 /* ShudderTableViewCell.swift in Sources */,
+				F64F012A219A5402000F8D38 /* FeaturedCollectionViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F60322D2219A394700242AB4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F60322D3219A394700242AB4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F60322D7219A394800242AB4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F60322D8219A394800242AB4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F60322DB219A394800242AB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F60322DC219A394800242AB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F60322DE219A394800242AB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0224829A08FCA45878814BF /* Pods-UnsplashShudder.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K62Y623GK6;
+				INFOPLIST_FILE = UnsplashShudder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "e-bushi.UnsplashShudder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F60322DF219A394800242AB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67BFFA3F14E5D66E72BDD6DA /* Pods-UnsplashShudder.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K62Y623GK6;
+				INFOPLIST_FILE = UnsplashShudder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "e-bushi.UnsplashShudder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F60322C6219A394700242AB4 /* Build configuration list for PBXProject "UnsplashShudder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F60322DB219A394800242AB4 /* Debug */,
+				F60322DC219A394800242AB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F60322DD219A394800242AB4 /* Build configuration list for PBXNativeTarget "UnsplashShudder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F60322DE219A394800242AB4 /* Debug */,
+				F60322DF219A394800242AB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F60322C3219A394700242AB4 /* Project object */;
+}
